@@ -352,10 +352,10 @@
 
 // ============================================================= concat elementlarni birlashtirish
 
-const array1 = [1, 3];
-const array2 = [5, 7, 11];
-const result = array1.concat(array2);
-console.log(result);
+// const array1 = [1, 3];
+// const array2 = [5, 7, 11];
+// const result = array1.concat(array2);
+// console.log(result);
 
 
 // let nmadr = ['a', 'b'];
@@ -366,23 +366,23 @@ console.log(result);
 
 // ------------------------------------------------------------------ filter
 
-const filterValues = number => number > 5;
-const filterValues2 = result.filter(filterValues);
-console.log(filterValues2);
+// const filterValues = number => number > 5;
+// const filterValues2 = result.filter(filterValues);
+// console.log(filterValues2);
 
 
 // ------------------------------------------------------------------ map
 
-const mapValues = number => 'son: ' + number;
-const mapValues2 = result.map(mapValues);
-console.log(mapValues2);
+// const mapValues = number => 'son: ' + number;
+// const mapValues2 = result.map(mapValues);
+// console.log(mapValues2);
 
 
 // =================================================------------------  sort values
 
-const sortValues = (number1, number2) => number1 - number2;
-result.sort(sortValues);
-console.log(result);
+// const sortValues = (number1, number2) => number1 - number2;
+// result.sort(sortValues);
+// console.log(result);
 
 // --------------------------------------------------------------------- object 
 
@@ -417,7 +417,7 @@ console.log(result);
 //     city: 'New York',
 //     sayHello: function () {
 //         console.log('salom mening ismim ' + this.name);
-        
+
 //     }
 // }
 
@@ -440,10 +440,10 @@ console.log(result);
 // let a = -2;
 // if (a > 0) {5
 //     console.log('bu son musbat');
-    
+
 // } else {
 //     console.log('bu son manfiy');
-    
+
 // }
 
 // const number = 34;
@@ -453,7 +453,7 @@ console.log(result);
 //     console.log('bu son 0 ga teng');
 // } else {
 //     console.log('bu son 0 dan kichik');
-    
+
 // }
 
 
@@ -493,10 +493,77 @@ console.log(result);
 // }
 // console.log(sum);
 
-for (let i = 1; i <= 5; i++) {
-    if (i === 3) {
-        console.log(i);
-        break;
-    }
-    console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//         console.log(i);
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// const bir = 10;
+// const ikki = 30;
+// const uch = 14;
+
+// const inRange = (min, max, number) => {
+//     if (number >= min && number <= max) {
+//         console.log(`berilgan ${number} soni ${min} va ${max} orasida`);
+//     } else {
+//         console.log(`berilgan son ${min} va ${max} orasida emas`);
+//     }
+// }
+
+// inRange (bir, ikki, uch)
+
+
+
+
+
+
+
+
+
+
+
+// const simpleCalculator = (num1, num2, oper) => {
+//     switch (oper) {
+//         case "add":
+//             console.log(`Yig'indisi: ${num1 + num2}`);
+//             break;
+//         case "subtract":
+//             console.log(`ayirmasi: ${num1 - num2}`);
+//             break;
+//         case "multiply":
+//             console.log("Ko'paytmasi:" + num1 * num2);
+//             break;
+//         case "divide":
+//             console.log("Bo'linmasi: " + num1 / num2);
+//             break;
+
+//         default:
+//             console.log('Aniqlanmagan amal');
+//     }
+// }
+// const a = 20;
+// const b = 5;
+// const operation = "subtract";
+// simpleCalculator(a, b, operation);
+
+// ---------------------------------------------------------------- eng katta element
+
+
+// const get = (array) => {
+//     let largest = array[0];
+//     for (let i = 1; i < array.length; i++) {
+//         if (array[i] > largest) {
+//             largest = array[i];
+//         }
+//     }
+//     return largest;
+// }
+
+// const nums = [6, 100, 120, 90, 346, 40];
+// const result = get(nums);
+// console.log(`eng katta element ${result}`);
+
+
